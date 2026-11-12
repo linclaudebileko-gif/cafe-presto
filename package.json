@@ -1,0 +1,22 @@
+{
+  "name": "cafe-presto",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "node -v && next build --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "leaflet": "^1.9.4",
+    "next": "15.5.29",
+    "react": "19.1.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "19.1.0",
+    "react-leaflet": "^5.0.0"
+  }
+}
